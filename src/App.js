@@ -65,7 +65,7 @@ const contentOptions = {
   ]
 };
 
-const ContentTypeUI = () => {
+const App = () => {
   const [contentType, setContentType] = useState('Fun');
   const [selectedTitle, setSelectedTitle] = useState(null);
   const [customTitle, setCustomTitle] = useState('');
@@ -288,4 +288,4 @@ const ContentTypeUI = () => {
   );
 };
 
-export default ContentTypeUI;
+export default App;
